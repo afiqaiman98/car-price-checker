@@ -69,6 +69,7 @@ class CarController extends Controller
         return response()->json(['price' => $car->price]);
     }
 
+    //extra page
     public function filterByPrice(Request $request)
     {
         $price_min = $request->price_min;

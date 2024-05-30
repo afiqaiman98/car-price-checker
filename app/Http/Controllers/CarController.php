@@ -12,6 +12,7 @@ class CarController extends Controller
         return view('car.index');
     }
 
+    //extra pages
     public function price()
     {
         return view('car.price-filter');
